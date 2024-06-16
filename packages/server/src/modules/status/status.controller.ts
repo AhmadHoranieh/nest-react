@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 
-import { Dictionary } from '@nest-react/domain';
+import { Dictionary } from '@konvos/domain';
 
 import { StatusService } from './status.service';
 

@@ -1,16 +1,8 @@
 {
-  "name": "nest-react",
+  "name": "konvos",
   "version": "1.0.0",
-  "author": "Paul Landázuri",
-  "description": "Simple boilerplate for a Nest + React project",
-  "homepage": "https://github.com/LandazuriPaul/nest-react#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LandazuriPaul/nest-react.git"
-  },
-  "bugs": {
-    "url": "https://github.com/LandazuriPaul/nest-react/issues"
-  },
+  "author": "Ahmed Horanieh",
+  "description": "Konvos' Monorepo",
   "directories": {
     "doc": "docs"
   },
@@ -28,11 +20,11 @@
   ],
   "scripts": {
     "generate:version": "./scripts/generate_version.sh",
-    "start:domain": "yarn workspace @nest-react/domain start:dev",
-    "start:lib": "yarn workspace @nest-react/lib start:dev",
+    "start:domain": "yarn workspace @konvos/domain start:dev",
+    "start:lib": "yarn workspace @konvos/lib start:dev",
     "start:common": "(yarn start:domain & yarn start:lib)",
-    "build:domain": "yarn workspace @nest-react/domain build",
-    "build:lib": "yarn workspace @nest-react/lib build",
+    "build:domain": "yarn workspace @konvos/domain build",
+    "build:lib": "yarn workspace @konvos/lib build",
     "build:common": "yarn build:domain && yarn build:lib",
     "build-push:server": "PACKAGE=server ./scripts/build_and_push.sh",
     "build-push:client": "PACKAGE=client ./scripts/build_and_push.sh",

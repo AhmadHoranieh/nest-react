@@ -1,5 +1,5 @@
 {
-  "name": "@nest-react/client-vite",
+  "name": "@konvos/client-vite",
   "version": "1.0.0",
   "description": "Client boilerplate built with Vite, using React, communicating with a Nest server",
   "main": "src/index.tsx",
@@ -14,15 +14,15 @@
     "check-types": "tsc"
   },
   "dependencies": {
-    "@nest-react/domain": "^1.0.0",
-    "@nest-react/lib": "^1.0.0",
+    "@konvos/domain": "^1.0.0",
+    "@konvos/lib": "^1.0.0",
     "debug": "^4.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "semver": "^7.5.2"
   },
   "peerDependencies": {
-    "@nest-react/server": "1.0.0"
+    "@konvos/server": "1.0.0"
   },
   "devDependencies": {
     "@types/debug": "^4.1.7",
